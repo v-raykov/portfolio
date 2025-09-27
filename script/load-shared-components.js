@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  fetch('header.html')
+  fetch('../component/header.html')
   .then(response => response.text())
   .then(html => {
     document.getElementById('header-placeholder').innerHTML = html;
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
   })
   .catch(error => console.error('Error loading the header:', error));
 
-  fetch('footer.html')
+  fetch('../component/footer.html')
   .then(response => response.text())
   .then(html => {
     document.getElementById('footer-placeholder').innerHTML = html;
