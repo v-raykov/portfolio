@@ -6,3 +6,4 @@ dist
 .cache
 .idea
 portfolio.iml
+.DS_Store
